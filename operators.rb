@@ -10,3 +10,6 @@ puts 2 * 3
 
 # / operator
 puts 10/2
+
+# / mod operator
+puts 10%2
