@@ -1,6 +1,6 @@
 # All loops Here
 
-#first if-else
+puts ".........if-else.........."
 
 puts "Enter a number : "
 $x = gets.chomp.to_i
@@ -23,10 +23,11 @@ elsif $p<20
 	puts "p is greater than 0 and value of p is = #{$p}" 
 end
 
+puts ".......Unless modifier........"
 #Unless modifier
 # Executes code if conditional is false. If the conditional is true, code specified in the else clause is executed.
 
-$var =  1
+$var =  2
 print "1 -- Value is set\n" if $var
 $var = false
 print "unless executes when condition is false\n" unless $var
